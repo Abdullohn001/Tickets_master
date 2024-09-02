@@ -4,7 +4,7 @@ import { BiSolidMinusCircle } from "react-icons/bi";
 import { Navigate } from "react-router-dom";
 
 const handlDelete = (id) => {
-  const url = `https://json-api.uz/api/project/tickets/${id}`;
+  const url = `https://json-api.uz/api/project/tickets/data/${id}`;
 
   fetch(url, {
     method: "DELETE",
